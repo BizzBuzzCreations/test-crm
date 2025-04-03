@@ -7,7 +7,6 @@ import formatDate from '../utils/FormatDate';
 import useTeams from '../hooks/useTeams';
 
 const ShowTeams = () => {
-
   const { teams, loading } = useTeams();
 
   if (loading) {
@@ -16,25 +15,27 @@ const ShowTeams = () => {
 
   return (
     <>
-      {/* <!-- Show Leads --> */}
+      {/* <!-- Show Teams --> */}
       <main className="p-6 flex-1">
         <div className="overflow-y-auto max-h-[84vh] shadow-md rounded-lg">
           <table className="table-auto w-full text-sm text-left rtl:text-right text-gray-500">
             <thead className="text-sm text-gray-200 uppercase bg-gray-600">
               <tr>
-                <th class="poppins-semibold px-6 py-3">ID</th>
-                <th class="poppins-semibold px-6 py-3">Team Name</th>
-                <th class="poppins-semibold px-6 py-3">Campaign Name</th>
-                <th class="poppins-semibold px-6 py-3">Date Created</th>
-                <th class="poppins-semibold px-6 py-3">Action</th>
+                <th className="poppins-semibold px-6 py-3">ID</th>
+                <th className="poppins-semibold px-6 py-3">Team Name</th>
+                <th className="poppins-semibold px-6 py-3">Campaign Name</th>
+                <th className="poppins-semibold px-6 py-3">Date Created</th>
+                <th className="poppins-semibold px-6 py-3">Action</th>
               </tr>
             </thead>
-            <tbody id="leads-table-body">
+            <tbody id="teams-table-body">
               {teams.map((team, index) => (
                 <tr key={team._id} className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700 border-gray-200">
                   <td className="poppins-semibold px-6 py-4">{index + 1}</td>
                   <td className="poppins-semibold px-6 py-4">{team.name}</td>
-                  <td className="poppins-semibold px-6 py-4">{team.campaignId.name}</td>
+                  <td className="poppins-semibold px-6 py-4">
+                    {team.campaignId?.name || 'No Campaign Assigned'}
+                  </td>
                   <td className="poppins-semibold px-6 py-4">{formatDate(team.createdAt)}</td>
                   <td className="poppins-semibold px-6 py-4 flex items-center gap-4">
                     <Link to={`/leads?team_id=${team._id}`} title="Show Leads by Team">
