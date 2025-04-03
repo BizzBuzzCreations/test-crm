@@ -1,0 +1,618 @@
+[
+    {
+        "id": 624,
+        "created_at": "2020-09-16 22:39:03",
+        "modified_at": "2020-10-08 22:39:03",
+        "first_name": "Donald",
+        "last_name": "Whitney",
+        "phone": "4479903595",
+        "email": "dhowell@example.net",
+        "is_active": "Dead",
+        "lead_status": "Contacted over the phone",
+        "assigned_user": "Nova Knight",
+        "transfer_to": "Nova Knight",
+        "door_no": "98178",
+        "postcode": "97959",
+        "description": "Energy alone example sign.",
+        "notes": [
+            "Toward fact card body still cup activity.",
+            "Always whatever book way support continue.",
+            "Child boy environment collection value."
+        ],
+        "documents": [
+            "degree.pdf",
+            "story.pdf"
+        ],
+        "campaign": "Web Leads Data",
+        "name": "Nova Knight",
+        "username": "aiden",
+        "teams": "Team HDR",
+        "user_type": "client",
+        "is_admin": "User"
+    },
+    {
+        "id": 788,
+        "created_at": "2023-07-23 11:19:25",
+        "modified_at": "2023-07-30 11:19:25",
+        "first_name": "Leah",
+        "last_name": "Villarreal",
+        "phone": "251-390-5963x166",
+        "email": "lorihobbs@example.com",
+        "is_active": "Dead",
+        "lead_status": "Answering Machine",
+        "assigned_user": "Nova Knight",
+        "transfer_to": "Cassian Drake",
+        "door_no": "87023",
+        "postcode": "83997",
+        "description": "Issue by who own knowledge.",
+        "notes": [
+            "Section security way form."
+        ],
+        "documents": [
+            "leader.pdf"
+        ],
+        "campaign": "Kanpur IVA",
+        "name": "Soren Blaze",
+        "username": "jaxon",
+        "teams": "Team IVA",
+        "user_type": "manager",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 112,
+        "created_at": "2024-07-19 21:52:19",
+        "modified_at": "2024-08-17 21:52:19",
+        "first_name": "Harold",
+        "last_name": "Williams",
+        "phone": "+1-252-524-4679",
+        "email": "rogerstammy@example.com",
+        "is_active": "Active",
+        "lead_status": "Voice mail / Busy",
+        "assigned_user": "Jaxon Fury",
+        "transfer_to": "Soren Blaze",
+        "door_no": "8182",
+        "postcode": "94937",
+        "description": "Begin degree quality point owner himself.",
+        "notes": [
+            "Clearly forward his event.",
+            "Whose me happy."
+        ],
+        "documents": [
+            "heart.pdf",
+            "example.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Lyra Stone",
+        "username": "admin",
+        "teams": "Team ECO4",
+        "user_type": "team_lead",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 68,
+        "created_at": "2021-06-13 09:44:29",
+        "modified_at": "2021-06-24 09:44:29",
+        "first_name": "Jennifer",
+        "last_name": "Mcpherson",
+        "phone": "218.476.8650x35585",
+        "email": "danielcasey@example.net",
+        "is_active": "Dead",
+        "lead_status": "Structure Completed",
+        "assigned_user": "Lyra Stone",
+        "transfer_to": "Lyra Stone",
+        "door_no": "9361",
+        "postcode": "22602",
+        "description": "Democratic responsibility really loss consider sure mother.",
+        "notes": [
+            "You represent picture give American job move.",
+            "Small during school book."
+        ],
+        "documents": [
+            "class.pdf",
+            "whom.pdf"
+        ],
+        "campaign": "Web Leads Data",
+        "name": "Admin",
+        "username": "lyra",
+        "teams": "Team HDR",
+        "user_type": "agent",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 897,
+        "created_at": "2022-09-05 08:27:14",
+        "modified_at": "2022-09-19 08:27:14",
+        "first_name": "Lydia",
+        "last_name": "Orr",
+        "phone": "997.358.2302x51581",
+        "email": "ftran@example.com",
+        "is_active": "Dead",
+        "lead_status": "Private Tenant",
+        "assigned_user": "Cassian Drake",
+        "transfer_to": "Jaxon Fury",
+        "door_no": "766",
+        "postcode": "75363",
+        "description": "Investment involve every manage.",
+        "notes": [
+            "Red who reach argue song.",
+            "Low point return door arrive."
+        ],
+        "documents": [
+            "book.pdf"
+        ],
+        "campaign": "Webleads",
+        "name": "Lyra Stone",
+        "username": "nova",
+        "teams": "Team ECO4",
+        "user_type": "team_lead",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 459,
+        "created_at": "2022-03-06 22:21:47",
+        "modified_at": "2022-03-30 22:21:47",
+        "first_name": "Melissa",
+        "last_name": "Davis",
+        "phone": "466.222.3069x8079",
+        "email": "sarahrobertson@example.org",
+        "is_active": "Dead",
+        "lead_status": "Sent to Clear Start",
+        "assigned_user": "Jaxon Fury",
+        "transfer_to": "Kira Voss",
+        "door_no": "59778",
+        "postcode": "36686",
+        "description": "Have people successful former.",
+        "notes": [
+            "Organization newspaper your eight his.",
+            "Control author force administration performance could."
+        ],
+        "documents": [
+            "person.pdf"
+        ],
+        "campaign": "Web Leads Data",
+        "name": "Kira Voss",
+        "username": "elara",
+        "teams": "Team HDR",
+        "user_type": "admin",
+        "is_admin": "User"
+    },
+    {
+        "id": 255,
+        "created_at": "2020-03-12 15:03:19",
+        "modified_at": "2020-03-22 15:03:19",
+        "first_name": "Holly",
+        "last_name": "King",
+        "phone": "543.971.8554x5804",
+        "email": "deleondavid@example.com",
+        "is_active": "Active",
+        "lead_status": "No Contact",
+        "assigned_user": "Kira Voss",
+        "transfer_to": "Cassian Drake",
+        "door_no": "2124",
+        "postcode": "13517",
+        "description": "Already so part crime economy.",
+        "notes": [
+            "Pattern buy cultural education pretty other keep.",
+            "Its free teacher population."
+        ],
+        "documents": [
+            "field.pdf"
+        ],
+        "campaign": "HDR",
+        "name": "Lyra Stone",
+        "username": "orion",
+        "teams": "Kanpur IVA",
+        "user_type": "manager",
+        "is_admin": "User"
+    },
+    {
+        "id": 953,
+        "created_at": "2023-09-24 15:29:02",
+        "modified_at": "2023-09-30 15:29:02",
+        "first_name": "Ryan",
+        "last_name": "Reid",
+        "phone": "676.802.3785x457",
+        "email": "ecollins@example.net",
+        "is_active": "Dead",
+        "lead_status": "PBS Sold",
+        "assigned_user": "Orion Cross",
+        "transfer_to": "Cassian Drake",
+        "door_no": "92838",
+        "postcode": "36538",
+        "description": "Eight music drive reveal.",
+        "notes": [
+            "Hair institution try program contain doctor."
+        ],
+        "documents": [
+            "more.pdf",
+            "key.pdf"
+        ],
+        "campaign": "HDR",
+        "name": "Soren Blaze",
+        "username": "orion",
+        "teams": "Team ECO4",
+        "user_type": "team_lead",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 932,
+        "created_at": "2022-12-03 20:09:49",
+        "modified_at": "2022-12-08 20:09:49",
+        "first_name": "Karen",
+        "last_name": "Schwartz",
+        "phone": "(204)902-6466",
+        "email": "dsmith@example.com",
+        "is_active": "Dead",
+        "lead_status": "Sent to Clear Start",
+        "assigned_user": "Zane Blackwood",
+        "transfer_to": "Jaxon Fury",
+        "door_no": "495",
+        "postcode": "61607",
+        "description": "Leave performance serve leg college feeling green.",
+        "notes": [
+            "Travel reality citizen simply day thank.",
+            "Former add assume affect inside research."
+        ],
+        "documents": [
+            "occur.pdf",
+            "bit.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Soren Blaze",
+        "username": "soren",
+        "teams": "Team HDR",
+        "user_type": "client",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 965,
+        "created_at": "2023-10-17 13:22:03",
+        "modified_at": "2023-11-07 13:22:03",
+        "first_name": "Crystal",
+        "last_name": "Johnston",
+        "phone": "(385)638-0518",
+        "email": "dennisstewart@example.net",
+        "is_active": "Dead",
+        "lead_status": "Charity",
+        "assigned_user": "Cassian Drake",
+        "transfer_to": "Lyra Stone",
+        "door_no": "045",
+        "postcode": "77409",
+        "description": "Between drug in that cover poor those.",
+        "notes": [
+            "Group science success quite.",
+            "After off us business of."
+        ],
+        "documents": [
+            "cultural.pdf"
+        ],
+        "campaign": "Webleads",
+        "name": "Aiden Steele",
+        "username": "aiden",
+        "teams": "Team HDR",
+        "user_type": "client",
+        "is_admin": "User"
+    },
+    {
+        "id": 480,
+        "created_at": "2020-06-09 11:41:51",
+        "modified_at": "2020-06-12 11:41:51",
+        "first_name": "Heather",
+        "last_name": "Smith",
+        "phone": "(299)807-9036x91053",
+        "email": "kwatson@example.com",
+        "is_active": "Active",
+        "lead_status": "Private Tenant",
+        "assigned_user": "Aiden Steele",
+        "transfer_to": "Jaxon Fury",
+        "door_no": "875",
+        "postcode": "65829",
+        "description": "Member you mean style radio.",
+        "notes": [
+            "Three spring Congress her voice popular Republican realize.",
+            "Else majority structure change half through population."
+        ],
+        "documents": [
+            "choice.pdf",
+            "bring.pdf"
+        ],
+        "campaign": "Webleads",
+        "name": "Kira Voss",
+        "username": "cassian",
+        "teams": "Team ECO4",
+        "user_type": "Kanpur",
+        "is_admin": "User"
+    },
+    {
+        "id": 149,
+        "created_at": "2020-05-24 03:31:17",
+        "modified_at": "2020-06-09 03:31:17",
+        "first_name": "Christopher",
+        "last_name": "Wallace",
+        "phone": "+1-449-871-0806",
+        "email": "thernandez@example.com",
+        "is_active": "Active",
+        "lead_status": "Voice mail / Busy",
+        "assigned_user": "Nova Knight",
+        "transfer_to": "Nova Knight",
+        "door_no": "3631",
+        "postcode": "84573",
+        "description": "Writer lawyer beat blood.",
+        "notes": [
+            "Benefit month little now improve Republican your."
+        ],
+        "documents": [
+            "high.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Elara Quinn",
+        "username": "lyra",
+        "teams": "Team IVA",
+        "user_type": "senior_agent",
+        "is_admin": "User"
+    },
+    {
+        "id": 817,
+        "created_at": "2023-01-28 22:35:32",
+        "modified_at": "2023-02-15 22:35:32",
+        "first_name": "Glenda",
+        "last_name": "Allison",
+        "phone": "992-972-7932",
+        "email": "zimmermanrebecca@example.net",
+        "is_active": "Dead",
+        "lead_status": "Private Tenant",
+        "assigned_user": "Jaxon Fury",
+        "transfer_to": "Nova Knight",
+        "door_no": "70521",
+        "postcode": "16137",
+        "description": "List Mrs them bad.",
+        "notes": [
+            "Best factor general fight several.",
+            "Off believe up guy in."
+        ],
+        "documents": [
+            "end.pdf",
+            "turn.pdf"
+        ],
+        "campaign": "Kanpur IVA",
+        "name": "Nova Knight",
+        "username": "nova",
+        "teams": "Web Leads Data",
+        "user_type": "team_lead",
+        "is_admin": "User"
+    },
+    {
+        "id": 773,
+        "created_at": "2023-08-02 00:36:27",
+        "modified_at": "2023-08-13 00:36:27",
+        "first_name": "Jonathan",
+        "last_name": "Vaughan",
+        "phone": "5765111300",
+        "email": "ferickson@example.org",
+        "is_active": "Dead",
+        "lead_status": "Awaiting Pictures",
+        "assigned_user": "Cassian Drake",
+        "transfer_to": "Zane Blackwood",
+        "door_no": "884",
+        "postcode": "81983",
+        "description": "Law father power.",
+        "notes": [
+            "A month establish."
+        ],
+        "documents": [
+            "we.pdf",
+            "series.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Nova Knight",
+        "username": "admin",
+        "teams": "Team HDR",
+        "user_type": "Kanpur",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 104,
+        "created_at": "2024-04-11 19:34:40",
+        "modified_at": "2024-05-02 19:34:40",
+        "first_name": "Nathan",
+        "last_name": "Nolan",
+        "phone": "001-774-373-7241x415",
+        "email": "qford@example.com",
+        "is_active": "Dead",
+        "lead_status": "Charity",
+        "assigned_user": "Zane Blackwood",
+        "transfer_to": "Cassian Drake",
+        "door_no": "04874",
+        "postcode": "62511",
+        "description": "Town management cut yourself type bit movie.",
+        "notes": [
+            "Board at PM good ahead real meeting risk.",
+            "Never significant center ask life."
+        ],
+        "documents": [
+            "property.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Jaxon Fury",
+        "username": "admin",
+        "teams": "Team HDR",
+        "user_type": "admin",
+        "is_admin": "User"
+    },
+    {
+        "id": 171,
+        "created_at": "2020-04-07 12:11:46",
+        "modified_at": "2020-04-28 12:11:46",
+        "first_name": "Hannah",
+        "last_name": "Thomas",
+        "phone": "+1-920-943-1722x664",
+        "email": "vdickerson@example.org",
+        "is_active": "Dead",
+        "lead_status": "High DI",
+        "assigned_user": "Zane Blackwood",
+        "transfer_to": "Kira Voss",
+        "door_no": "20280",
+        "postcode": "29614",
+        "description": "Group take officer reflect decide song.",
+        "notes": [
+            "They turn theory fact."
+        ],
+        "documents": [
+            "true.pdf"
+        ],
+        "campaign": "Webleads",
+        "name": "Soren Blaze",
+        "username": "aiden",
+        "teams": "Team ECO4",
+        "user_type": "manager",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 999,
+        "created_at": "2024-05-19 21:05:32",
+        "modified_at": "2024-05-22 21:05:32",
+        "first_name": "Ashley",
+        "last_name": "Reeves",
+        "phone": "676.638.4948x9407",
+        "email": "bradleyruiz@example.net",
+        "is_active": "Dead",
+        "lead_status": "Unqualified",
+        "assigned_user": "Cassian Drake",
+        "transfer_to": "Soren Blaze",
+        "door_no": "0045",
+        "postcode": "14977",
+        "description": "Case represent ask every over.",
+        "notes": [
+            "Suggest should that practice.",
+            "Surface challenge add under possible.",
+            "Its skill strategy government thought raise son."
+        ],
+        "documents": [
+            "just.pdf"
+        ],
+        "campaign": "Webleads",
+        "name": "Nova Knight",
+        "username": "admin",
+        "teams": "Team HDR",
+        "user_type": "manager",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 427,
+        "created_at": "2023-05-08 18:15:03",
+        "modified_at": "2023-05-26 18:15:03",
+        "first_name": "Ashley",
+        "last_name": "Ray",
+        "phone": "508-591-5189x8993",
+        "email": "steven28@example.com",
+        "is_active": "Dead",
+        "lead_status": "Approvals",
+        "assigned_user": "Kira Voss",
+        "transfer_to": "Nova Knight",
+        "door_no": "19470",
+        "postcode": "84850",
+        "description": "Black physical participant alone focus protect.",
+        "notes": [
+            "Simply beyond light wife see people attention.",
+            "Operation increase anyone act."
+        ],
+        "documents": [
+            "debate.pdf",
+            "paper.pdf"
+        ],
+        "campaign": "ECO4",
+        "name": "Orion Cross",
+        "username": "orion",
+        "teams": "Team IVA",
+        "user_type": "manager",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 851,
+        "created_at": "2022-05-22 01:45:32",
+        "modified_at": "2022-06-15 01:45:32",
+        "first_name": "Stephanie",
+        "last_name": "Miller",
+        "phone": "9899406561",
+        "email": "coreylee@example.org",
+        "is_active": "Active",
+        "lead_status": "Verified",
+        "assigned_user": "Nova Knight",
+        "transfer_to": "Lyra Stone",
+        "door_no": "7612",
+        "postcode": "48697",
+        "description": "Myself air happen.",
+        "notes": [
+            "Month war knowledge memory far also watch.",
+            "Sea visit voice gas."
+        ],
+        "documents": [
+            "than.pdf",
+            "nor.pdf"
+        ],
+        "campaign": "IVA",
+        "name": "Zane Blackwood",
+        "username": "admin",
+        "teams": "Web Leads Data",
+        "user_type": "senior_agent",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 905,
+        "created_at": "2022-08-24 12:10:52",
+        "modified_at": "2022-09-19 12:10:52",
+        "first_name": "Ronnie",
+        "last_name": "Flores",
+        "phone": "897-587-1605x1811",
+        "email": "yvette00@example.net",
+        "is_active": "Active",
+        "lead_status": "Callback",
+        "assigned_user": "Zane Blackwood",
+        "transfer_to": "Elara Quinn",
+        "door_no": "3256",
+        "postcode": "84715",
+        "description": "Box within public again ball crime oil.",
+        "notes": [
+            "Support red common especially year win."
+        ],
+        "documents": [
+            "age.pdf",
+            "stage.pdf"
+        ],
+        "campaign": "ECO4",
+        "name": "Zane Blackwood",
+        "username": "lyra",
+        "teams": "Team ECO4",
+        "user_type": "senior_agent",
+        "is_admin": "Admin"
+    },
+    {
+        "id": 892,
+        "created_at": "2020-11-03 00:57:43",
+        "modified_at": "2020-11-19 00:57:43",
+        "first_name": "Kara",
+        "last_name": "Evans",
+        "phone": "(900)402-4092",
+        "email": "ngarcia@example.com",
+        "is_active": "Active",
+        "lead_status": "Private Tenant",
+        "assigned_user": "Soren Blaze",
+        "transfer_to": "Aiden Steele",
+        "door_no": "8870",
+        "postcode": "91846",
+        "description": "Perform join seat turn door.",
+        "notes": [
+            "Director politics hit hotel decision animal."
+        ],
+        "documents": [
+            "on.pdf",
+            "still.pdf"
+        ],
+        "campaign": "HDR",
+        "name": "Orion Cross",
+        "username": "lyra",
+        "teams": "Web Leads Data",
+        "user_type": "admin",
+        "is_admin": "Admin"
+    }
+]

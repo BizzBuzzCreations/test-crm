@@ -1,0 +1,1 @@
+export const DB_NAME = "BBC_CRM_2.0"

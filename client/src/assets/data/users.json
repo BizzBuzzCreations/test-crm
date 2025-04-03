@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "username": "admin",
+    "campaign": "HDR",
+    "team": "Team HDR",
+    "user_type": "admin",
+    "is_admin": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Aiden Steele",
+    "username": "aiden",
+    "campaign": "IVA",
+    "team": "Team IVA",
+    "user_type": "manager",
+    "is_admin": "User"
+  },
+  {
+    "id": 3,
+    "name": "Nova Knight",
+    "username": "nova",
+    "campaign": "ECO4",
+    "team": "Team ECO4",
+    "user_type": "agent",
+    "is_admin": "User"
+  },
+  {
+    "id": 4,
+    "name": "Cassian Drake",
+    "username": "cassian",
+    "campaign": "Kanpur IVA",
+    "team": "Kanpur IVA",
+    "user_type": "senior_agent",
+    "is_admin": "User"
+  },
+  {
+    "id": 5,
+    "name": "Kira Voss",
+    "username": "kira",
+    "campaign": "Webleads",
+    "team": "Web Leads Data",
+    "user_type": "client",
+    "is_admin": "User"
+  },
+  {
+    "id": 6,
+    "name": "Zane Blackwood",
+    "username": "zane",
+    "campaign": "HDR",
+    "team": "Team HDR",
+    "user_type": "agent",
+    "is_admin": "User"
+  },
+  {
+    "id": 7,
+    "name": "Elara Quinn",
+    "username": "elara",
+    "campaign": "IVA",
+    "team": "Team IVA",
+    "user_type": "team_lead",
+    "is_admin": "User"
+  },
+  {
+    "id": 8,
+    "name": "Jaxon Fury",
+    "username": "jaxon",
+    "campaign": "ECO4",
+    "team": "Team ECO4",
+    "user_type": "senior_agent",
+    "is_admin": "User"
+  },
+  {
+    "id": 9,
+    "name": "Lyra Stone",
+    "username": "lyra",
+    "campaign": "Web Leads Data",
+    "team": "Web Leads Data",
+    "user_type": "client",
+    "is_admin": "User"
+  },
+  {
+    "id": 10,
+    "name": "Orion Cross",
+    "username": "orion",
+    "campaign": "Kanpur IVA",
+    "team": "Kanpur IVA",
+    "user_type": "manager",
+    "is_admin": "User"
+  },
+  {
+    "id": 11,
+    "name": "Soren Blaze",
+    "username": "soren",
+    "campaign": "Webleads",
+    "team": "Web Leads Data",
+    "user_type": "team_lead",
+    "is_admin": "User"
+  }
+]

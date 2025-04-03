@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "team_name": "Team IVA",
+    "date_created": "2025-02-12"
+  },
+  {
+    "id": 2,
+    "team_name": "Team HDR",
+    "date_created": "2025-01-05"
+  },
+  {
+    "id": 3,
+    "team_name": "Team ECO4",
+    "date_created": "2024-05-16"
+  },
+  {
+    "id": 4,
+    "team_name": "Kanpur IVA",
+    "date_created": "2024-03-21"
+  },
+  {
+    "id": 5,
+    "team_name": "Web Leads Data",
+    "date_created": "2024-07-27"
+  }
+]
