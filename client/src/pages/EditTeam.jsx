@@ -8,34 +8,45 @@ const EditTeam = () => {
   const { id } = useParams();
   const { team: fetchedTeam, loading: teamLoading, updateTeam } = useTeams(id);
   const { campaigns, loading: campaignsLoading } = useCampaigns();
-  const [team, setTeam] = useState(""); // State to store the selected team
-  const [selectedCampaign, setSelectedCampaign] = useState(""); // State to store the selected campaign
+  const [team, setTeam] = useState({
+    name: "",
+    campaignId: "",
+  }); // State to store the team name
+  const [selectedCampaign, setSelectedCampaign] = useState(""); // State to store the selected campaign ID
   const [isLoading, setIsLoading] = useState(false); // State to manage loading state
   const navigate = useNavigate();
 
-  // Update the team state when fetchedTeam changes
+  // Update the team state when fetchedTeam and campaigns are loaded
   useEffect(() => {
-    if (fetchedTeam) {
-      setTeam(fetchedTeam.name);
-      setSelectedCampaign(fetchedTeam.campaign || "");
+    if (fetchedTeam && campaigns.length > 0) {
+      setTeam({ name: fetchedTeam.name, campaignId: fetchedTeam.campaignId }); // Correctly set the team state
     }
-  }, [fetchedTeam]);
+  }, [fetchedTeam, campaigns]);
+
+  console.log(selectedCampaign.name);
+  console.log(team);
 
   // Handle input change for the team name
   const handleInputChange = (e) => {
-    setTeam(e.target.value);
+    setTeam((prevTeam) => ({
+      ...prevTeam,
+      name: e.target.value, // Update only the name field
+    }));
   };
 
   // Handle dropdown change for the campaign
   const handleDropdownChange = (e) => {
-    setSelectedCampaign(e.target.value);
+    setTeam((prevTeam) => ({
+      ...prevTeam,
+      campaignId: e.target.value, // Update only the campaignId field
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
-    const teamData = { name: team, campaign: selectedCampaign };
+    const teamData = { name: team, campaignId: selectedCampaign }; // Use campaignId in the payload
 
     try {
       await updateTeam(id, teamData);
@@ -92,7 +103,7 @@ const EditTeam = () => {
               name="teamName"
               className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:ring-0 focus:outline-hidden p-3"
               placeholder="Team Name"
-              value={team}
+              value={team.name}
               onChange={handleInputChange}
               required
             />
@@ -115,7 +126,7 @@ const EditTeam = () => {
               id="campaign"
               name="campaign"
               className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:ring-0 focus:outline-hidden p-3 w-full"
-              value={selectedCampaign}
+              value={team.campaignId} // Use campaignId as the value
               onChange={handleDropdownChange}
               required
             >
@@ -124,11 +135,10 @@ const EditTeam = () => {
                 <option>Loading...</option>
               ) : (
                 campaigns.map((campaign) => (
-                  <option key={campaign._id} value={campaign.name} className="font-sans text-md">
+                  <option key={campaign._id} value={campaign._id} className="font-sans text-md">
                     {campaign.name}
                   </option>
-                ))
-              )}
+                )))}
             </select>
             <span
               className="pointer-events-none absolute start-2.5 top-0 -translate-y-1/2 bg-white p-0.5 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-0 peer-focus:text-xs"
